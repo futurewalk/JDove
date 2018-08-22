@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataBases>
+   <dataBase name="default" >
+      <prop name = "driver">com.mysql.jdbc.Driver</prop>
+      <prop name = "url">jdbc:mysql://119.23.29.63:3306/shopping?useUnicode=true&amp;autoReconnect=true&amp;failOverReadOnly=false&amp;autoReconnectForPools=true</prop>
+      <prop name = "characterEncoding">utf-8</prop>
+      <prop name = "username">admin</prop>
+      <prop name = "password">Jack28293477..</prop>
+      <prop name = "initialSize">15</prop><!--初始化连接数-->
+      <prop name = "minIdle">2</prop><!--最小连接池数量-->
+      <prop name = "maxActive">100</prop><!--最大激活连接数 -->
+      <prop name = "maxWait">60000</prop><!--为连接最大的等待时间，单位毫秒，如果超过此时间将接到异常。设为-1表示无限制-->
+      <prop name = "removeAbandoned">true</prop><!-- 是否自动回收超时连接-->
+      <prop name = "removeAbandonedTimeout">180</prop><!-- 延长这个所谓的超时时间-->
+      <prop name = "timeBetweenEvictionRunsMillis">60000</prop>
+      <prop name = "minEvictableIdleTimeMillis">300000</prop>
+      <prop name = "validationQuery">select 1</prop><!--自动回收连接池-->
+      <prop name = "testWhileIdle">true</prop>
+      <prop name = "testOnBorrow">false</prop>
+      <prop name = "testOnReturn">false</prop>
+      <prop name = "poolPreparedStatements">true</prop>
+      <prop name = "maxPoolPreparedStatementPerConnectionSize">200</prop>
+   </dataBase>
+</dataBases>
