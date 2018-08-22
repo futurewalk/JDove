@@ -2,13 +2,13 @@ package cn.com.dove.framework.orm;
 
 import cn.com.dove.anotation.Column;
 import cn.com.dove.anotation.Table;
+import cn.com.dove.exception.MessageException;
 import cn.com.dove.framework.em.PKST;
 import cn.com.dove.framework.orm.Api.Orm;
 import cn.com.dove.utils.BaseType;
+import cn.com.dove.utils.CommonUtils;
 import cn.com.dove.utils.ReflectUtils;
 import cn.com.dove.utils.StringTool;
-import cn.gfurox.common.CommonUtils;
-import cn.gfurox.common.MessageException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

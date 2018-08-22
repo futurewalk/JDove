@@ -33,7 +33,6 @@
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.6.1" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.16" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:3.0.1" level="project" />
-    <orderEntry type="library" name="Maven: cn.gfurox.gfurox-jutil:gfurox-jutil:1.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.1.33" level="project" />
     <orderEntry type="library" name="Maven: net.sf.jxls:jxls-core:1.0.6" level="project" />
     <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.1.1" level="project" />
